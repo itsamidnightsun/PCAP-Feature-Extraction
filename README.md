@@ -1,11 +1,9 @@
 # PCAP-Feature-Extraction
 
-There are two scripts in this repository - convert_PCAP_to_JSON_Final. sh and parse_Streams_Final
+There are two scripts in this repository - convert_PCAP_to_JSON.sh and parse_Streams.sh
 
-The Script to parse streams take in a packet capture as input, and outputs multiple files, per TCP and UDP flow. 
+The Script to parse streams take in a packet capture as input, and outputs multiple files, per TCP and UDP flow. When the Conversion Script is run however, all files in the directory with a PCAP extension will be converted to JSON. 
 
-Then, the conversion Script takes the multiple PCAP files, and converts them to JSON files.
-
-Use cases of the JSON files include:
+Use cases of the output files include:
   - Analysis for Big Data
   - Extract features for prediction in a Machine Learning algorithm
